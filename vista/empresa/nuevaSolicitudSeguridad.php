@@ -1,0 +1,3 @@
+
+
+<iframe height='98%' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creator.zohopublic.com/hq5colombia/servicios-hq5/form-embed/Solicitudes_Oficina_Virtual/NKtpUuwvssTRnru8BbBfZkYu5q1peuEn7qOKnDuPBTk4OYhQdfekfQVGnFuhD6v0snxy4XyZv9XxDuxG195Uk3f5FD2XOCeFKpJE?Cliente=<?php echo $_SESSION["idEmpresa_user"];?>&Aprobador=<?php echo $_SESSION["persona_user"];?>'></iframe>

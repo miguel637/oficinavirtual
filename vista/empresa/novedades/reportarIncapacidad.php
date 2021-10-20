@@ -1,0 +1,1 @@
+<iframe height='500px' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creatorapp.zohopublic.com/hq5colombia/ecosistema-temporal/form-embed/Registro_de_Incapacidad/raXb07m6qH3gPJ8hj1A122efvYs14EJbnP7OE7q5MmRORDfhdEKBwuAWZ6n983EyG4Nq7y5m0Zp3SnmRMYA3DrK54nKCD65JyDEE?Codigo_Empresa=<?php echo $_SESSION["codigoEmpresa_user"];?>'></iframe>

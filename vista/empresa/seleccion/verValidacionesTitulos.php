@@ -1,0 +1,1 @@
+<iframe height='500px' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creator.zohopublic.com/hq5colombia/hq5/report-embed/VALIDACI_N_DE_T_TULOS_Report/ZpWKJJPkAQDxdd2GmhVVY4zyA4J0V3s2eG2ppCaSfGg0pnDhTPvznnd7MvMnTTmkUJn6fGDG598CV8htrBC0ykW1QUN1bMMBjMsw?Empresa.ID=<?php echo $_SESSION["idEmpresa_user"];?>'></iframe>

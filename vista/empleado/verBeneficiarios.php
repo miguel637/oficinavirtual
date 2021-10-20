@@ -1,0 +1,1 @@
+<iframe height='500px' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creatorapp.zohopublic.com/hq5colombia/hq5/report-embed/Estado_de_Afiliaci_n_Beneficiarios/Wp1ZOzxTvFYsqyNUqRzhhE1r4zKvnke0xPJtxQ1r4MFsxAMq4mx0a7JaynvfWSSQZ13ys3DSwa3xY04Rg1kyYGqOW1zUKh8uy0Zn?Doc=<?php echo $_SESSION["user_usuario"];?>'></iframe>

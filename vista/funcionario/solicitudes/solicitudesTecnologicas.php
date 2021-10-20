@@ -1,0 +1,1 @@
+<iframe height='800' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creatorapp.zohopublic.com/hq5colombia/soporte-hq5/report-embed/Recursos_tecnol_gicos_Report/UTTPbWnWrUMJn3KV5n0B6bgru8ptMDTmAJD4vHT8Bu5v135wjXg33B5xO6UbqnV8FQAyG53urxE9QB0Yj3G5XxKHY0AWpppBeGav?Correo_Electronico=<?php echo $_SESSION["user_usuario"];?>'></iframe>

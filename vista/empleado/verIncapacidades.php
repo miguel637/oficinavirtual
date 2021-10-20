@@ -1,0 +1,1 @@
+<iframe height='500px' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creatorapp.zohopublic.com/hq5colombia/ecosistema-temporal/report-embed/Incapacidades_Generadas/hD4JQONRzEpMOJPq5nKAvPKVK5bUr4qwm9yp1ZxAFGZ3rHMQF6447VSvmjZPuns5GRYeZakpZEB3t9qDbsbJJpJpHtT7ddtMh7Ub?Identificaci_n=<?php echo $_SESSION["user_usuario"];?>'></iframe>

@@ -1,0 +1,1 @@
+<iframe height='98%' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creator.zohopublic.com/hq5colombia/hq5/form-embed/ANEXAR_PERFILES/hMXDQUsgQGVbtp6KtmAh8XR6xBUZCspKD6KynvRJP0H4kBWGGRvbEXYekFbhXHkMm4tgMyOdte8zAQOF2HN2O84EwSEkzgpyhhgp?Usuario_OV_creaci_n=funcionario_<?php echo $_SESSION["user_usuario"];?>'></iframe>

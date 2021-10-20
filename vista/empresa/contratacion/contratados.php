@@ -1,0 +1,1 @@
+<iframe height='98%' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creator.zohopublic.com/hq5colombia/hq5/report-embed/CONTRATADOS/GZAOy3Q8h9z5fgjbMDbTytEZDWvpvvgmxF1HrOJq0zjSTYj9d5GsrX7tQTRnnuzGOXyHmpjdtR2kTsbC0SrNtvpFw36t8YWDSV5D?EMPRESA_APLICAR_CONVOCATORIA.ID=<?php echo $_SESSION["idEmpresa_user"];?>'></iframe>

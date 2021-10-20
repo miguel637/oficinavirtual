@@ -1,0 +1,1 @@
+<iframe height='800' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creatorapp.zohopublic.com/hq5colombia/soporte-hq5/report-embed/Agregar_caso_Report/Jn98qhXF8CJFzXTMXTenyWBvQ1t83g2MAjs6Y1Z3TUn1rYKPz8agOvnh2thvAvJygK89tHKBDSzTYy5K1fsM18WrHE3O48aG3DJF?Direcci_n_de_correo=<?php echo $_SESSION["user_usuario"];?>'></iframe>

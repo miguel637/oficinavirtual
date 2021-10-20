@@ -1,0 +1,190 @@
+[33mcommit eab53ba746aa0a48f90a52c0e8d04066d79ff52a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: c2b5747 aa66131
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Fri Feb 12 11:39:19 2021 -0500
+
+    Merge pull request #7 from LeyderMendieta/Jesus_Corp
+    
+    Jesus corp - Pushing to Master
+
+[33mcommit aa661317e7d9193192b9f873d76ef554a62e4ebc[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Fri Feb 12 11:37:33 2021 -0500
+
+    Actualizacion tamaño iframes
+
+[33mcommit cdf8565aed442dd6ca80ccfbb1df42a426d588cf[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Fri Feb 12 11:07:39 2021 -0500
+
+    acutliazcion tamaño iframes
+
+[33mcommit 6062af94fc90d9c5e901ba7338742aef63c4ae2d[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Fri Feb 12 09:24:29 2021 -0500
+
+    Exportacion datos db
+
+[33mcommit dd276c0bbd8c07a17a04df05c21e778cf41e8a2e[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Fri Feb 12 09:20:36 2021 -0500
+
+    Nueva vista de expedientes incompletos
+
+[33mcommit c2b5747fc212da80faa01ecff5ac7880f907a837[m
+Merge: 7aaf628 bbaa7ac
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Tue Feb 9 13:05:29 2021 -0500
+
+    Merge pull request #6 from LeyderMendieta/Jesus_Corp
+    
+    Jesus corp - Update month
+
+[33mcommit bbaa7ac7d767c6ddad5eb7b56023a444e7289951[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Tue Feb 9 12:56:05 2021 -0500
+
+    Update image dinamics month
+
+[33mcommit 182f679081b5583a4cda45ca839ab70db46770c6[m
+Merge: a12f94e 7aaf628
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Mon Feb 8 14:24:04 2021 -0500
+
+    Merge pull request #5 from LeyderMendieta/master
+    
+    Update Jesus Corp from Master
+
+[33mcommit 7aaf628a84e899e15bb178b0316af4bfc6adbada[m
+Merge: 7afb4ed a12f94e
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Mon Feb 8 13:35:57 2021 -0500
+
+    Merge pull request #4 from LeyderMendieta/Jesus_Corp
+    
+    Update view expedientes_v and candidatosR
+
+[33mcommit 7afb4ed06c49f5dffba474bb319a95ba3e2bfdd4[m
+Author: leyder154611 <leyder154611@users.noreply.github.com>
+Date:   Mon Feb 8 13:17:12 2021 -0500
+
+    cambios_database.sql has been created to deploy
+
+[33mcommit 467baa54b23fe2361aac886dd9a241425f60a6c9[m
+Author: leyder154611 <leyder154611@users.noreply.github.com>
+Date:   Mon Feb 8 12:06:59 2021 -0500
+
+    update 8/2/2021
+
+[33mcommit a12f94e0bfb0d7b23ade2e1943d25250162cd6a6[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Mon Feb 8 09:26:39 2021 -0500
+
+    Update view expedientes_v and candidatosR
+
+[33mcommit c9b4390a1b586de17cc6f40dbf14c35a9d04f25c[m
+Merge: 20542f3 b4bd0c2
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Fri Feb 5 10:01:33 2021 -0500
+
+    Merge pull request #3 from LeyderMendieta/Jesus_Corp
+    
+    PQRS y path global for images
+
+[33mcommit b4bd0c2e686396379c79ea251913e862ec8b61c0[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Fri Feb 5 09:58:09 2021 -0500
+
+    PQRS y path global for images
+
+[33mcommit 20542f35db8d47c096e324f169eaeae863e03ce1[m
+Author: leyder154611 <leyder154611@users.noreply.github.com>
+Date:   Fri Feb 5 09:55:30 2021 -0500
+
+    expediente a validar codificado.
+
+[33mcommit 2ffd012135fe9c19614a785ca998cdd8c833645e[m
+Merge: 1c83fe2 4020d82
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Wed Feb 3 15:14:53 2021 -0500
+
+    Merge pull request #2 from LeyderMendieta/Jesus_Corp
+    
+    update favicon and instructive for customers
+
+[33mcommit 4020d82467667ed1a22101d0d1a1c225912d7863[m
+Merge: 731cb5b 1c83fe2
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Wed Feb 3 15:14:42 2021 -0500
+
+    Merge branch 'master' into Jesus_Corp
+
+[33mcommit 731cb5bc0787609fe5b0d3e779e8cfc172da7f88[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Wed Feb 3 15:10:18 2021 -0500
+
+    update favicon and instructive for customers
+
+[33mcommit 1c83fe2f9475926e5bc5acadf8a3114d70ae2dd3[m
+Author: leyder154611 <leyder154611@users.noreply.github.com>
+Date:   Wed Feb 3 14:31:25 2021 -0500
+
+    update Examenes Medicos para Fidu - Ajuste 240
+
+[33mcommit b899f18c4536bff98811f6d6ad74e34213e03d48[m
+Merge: 39709d6 c1a8951
+Author: LeyderMendieta <lmendieta6@misena.edu.co>
+Date:   Wed Feb 3 10:09:12 2021 -0500
+
+    Merge pull request #1 from LeyderMendieta/Jesus_Corp
+    
+    algun update - probando JesusCorp Branch
+
+[33mcommit c1a8951b49521bab231ca704a668c9d6fcd8b179[m[33m ([m[1;31morigin/Jesus_Corp[m[33m)[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Wed Feb 3 10:05:05 2021 -0500
+
+    algun update
+
+[33mcommit 39709d65257405873abda3c8cdd3651d0ac771c4[m
+Merge: 3dcfc7a 71197e0
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Wed Feb 3 10:00:55 2021 -0500
+
+    update something
+
+[33mcommit 3dcfc7a235734e568a3676716502f5f7bbc5243f[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Wed Feb 3 09:59:34 2021 -0500
+
+    Actualización modulo hoja de vida basisca, se quita este ajuste.
+
+[33mcommit f4fb2a7b00cf7cb188a854f7114a5c274e540300[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Wed Feb 3 09:58:18 2021 -0500
+
+    Se realiza ningun cambio.
+
+[33mcommit 71197e05feba15a9a32a8052757ebcfe35d70bb6[m
+Author: leyder154611 <leyder154611@users.noreply.github.com>
+Date:   Mon Feb 1 10:28:40 2021 -0500
+
+    topmenu - names
+
+[33mcommit 7e4f69666d62ff5fca1273b15978977d6d58afb7[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Mon Feb 1 10:06:56 2021 -0500
+
+    pruebas Jesus
+
+[33mcommit 8aacce0c453d78fa898c8f239c6e87a8525a6cef[m
+Author: Nirlevin Perez <nirlevind.perezg@ecci.edu.co>
+Date:   Mon Feb 1 10:06:39 2021 -0500
+
+    Prueba Jesus
+
+[33mcommit 92aae9c91565db9e29d06aabcadf26155af19150[m[33m ([m[1;31morigin/developer_hq5[m[33m)[m
+Author: leyder154611 <leyder154611@users.noreply.github.com>
+Date:   Mon Feb 1 09:35:38 2021 -0500
+
+    Starting App

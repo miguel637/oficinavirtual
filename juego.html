@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Juego</title>
+  <style>
+    * {
+	  margin: 0;
+	  padding: 0;
+	  overflow: auto;
+	}
+    div {
+	  display: block;
+	  margin: 1em auto;
+	  font-size: 30px;
+	  text-aling: center;
+	  background-color: rgba(255, 255, 255, .5);
+	  color: #000;
+	  width: 50%;
+	  text-align: center;
+	}
+	div p, div button {
+	  margin: .5em auto;
+	}
+	body {
+	  transition: background-color 1s ease;
+	  background-color: #7FB800;
+	  font-family: Calibri;
+	}
+	body.warm {
+	  background-color: #FFB400;
+	}
+	body.loose {
+	  background-color: #F6511D;
+	}
+	body.win {
+	  background-color: #00A6ED;
+	}
+	button#retry {
+	  background-color: #FFC30F;
+	  font-size: 20px;
+	  border-radius: 10px;
+	  padding: .2em 3em;
+	  border: 1px solid #C70039;
+	  display: block;
+	  margin: 2em auto;
+	  color: #C70039;
+	}
+	div#timer {
+	  display: block;
+	  position: fixed;
+	  right: 0;
+	  top: 40%;
+	  width: 10%;
+	}
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+   var timer = 10;
+   var tId;
+   var actions = [ {'code': 13, 'text': 'enter' },
+		{'code': 39, 'text': 'flecha a la derecha' },
+		{'code': 37, 'text': 'flecha a la izquierda' },
+		{'code': 38, 'text': 'flecha a hacia arriba' },
+		{'code': 40, 'text': 'flecha a hacia abajo' },
+		{'code': 96, 'text': '0' },
+		{'code': 97, 'text': '1' },
+		{'code': 98, 'text': '2' },
+		{'code': 99, 'text': '3' },
+		{'code': 100, 'text': '4' },
+		{'code': 101, 'text': '5' },
+		{'code': 102, 'text': '6' },
+		{'code': 103, 'text': '7' },
+		{'code': 104, 'text': '8' },
+		{'code': 105, 'text': '9' } ];
+   $(function() {
+	init();
+	$('#retry').on('click', function() {
+	  timer = 10;
+	  clearInterval(tId);
+	  init();
+	});
+   });
+   
+   function init() {
+	$('#retry').hide();
+	$('#key > p').html('');
+	$('body').removeClass('win loose warm');
+		  
+    $(document).on('keyup', function(event) {
+	  var newText = '';
+	  for(var i=0;i<actions.length;i++){
+	    if (actions[i].code == event.which) {
+		  newText = actions[i].text;
+		  break;
+		}
+	  }
+	  $('#key > p').html(newText);
+	});
+	tId = setInterval(function() {
+	   timer--;
+	   $('#timer > p').html('Quedan ' + timer + ' segundos');
+	   if (timer === 0) {
+	    $('#timer > p').html('');
+		$('body').removeClass('warm');
+		
+		if ($('#key > p').first().html() == (plus(45,.111,-65) + plus2(500,.973))) {
+		  $('#key > p').html('Ganaste!!!!');
+		  $('body').addClass('win');
+		} else {
+		  $('#key > p').html('Perdiste');
+		  $('#retry').show();
+		  $('body').addClass('loose');
+		}
+		$(document).off('keyup');
+	    clearInterval(tId);
+	   } else if (timer == 5) {
+		$('body').addClass('warm');
+	   }
+	}, 1000);
+   }
+   
+   function plus(a, b, c) {
+    a = 456-456;
+	return Math.pow(Math.E, (85 + 5454- 545 * Math.E) * getOP()  / 1)+a;
+   }
+   
+   function plus2(f,g) {
+    return ((87+784478-784-788)*8/8)-782993;
+   }
+   
+   function getOP() {
+     return 434 +24 - 333 +13-138;
+   }
+  </script>
+</head>
+<body>
+	<h2 style="color: white;">Redes Neuronales - Developer Uninpahu</h2>
+	<b><small style="color: white;">Created by: Jhon Gomez</small></b>
+ <div><p>Oprime teclas numéricas</p></div>
+ <div id="timer"><p></p></div>
+ <div id="key"><p></p></div>
+ <button id="retry">reintentar</button>
+</body>
+</html>
