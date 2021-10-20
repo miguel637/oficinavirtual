@@ -139,7 +139,7 @@ class AdminController extends AdminModel
 
                 foreach($modulosToSync as $fila)
                 {
-                    if($aprobador[$fila] == "true") $Modulos_All[$i] = 1;
+                    if($aprobador[$fila] == "SI") $Modulos_All[$i] = 1;
                     else $Modulos_All[$i] = 0; 
                     
                     $i++;
@@ -239,7 +239,7 @@ class AdminController extends AdminModel
 
                 foreach($modulosToSync as $moduleRow)
                 {
-                    if($fila[$moduleRow] == "true") $Modulos_All[$i] = 1;
+                    if($fila[$moduleRow] == "SI") $Modulos_All[$i] = 1;
                     else $Modulos_All[$i] = 0; 
                     
                     $i++;
