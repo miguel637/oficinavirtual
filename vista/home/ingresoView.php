@@ -43,7 +43,16 @@
 <script>
     $('#cuerpo').css({"background":"url('<?php echo base_url();?>lib/img/oficina_virtual.jpg')","background-repeat":"no-repeat","background-size":"cover"});    
 </script>
+<script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('ingresoView.php', {
+          'sitekey' : '6LcJJzIdAAAAAFpu38JsCW3Syswuzl8zumc4sT5p'
+        });
+      };
+    </script>
 <script src="<?php echo base_url();?>lib/js/responsive.js?<?php echo filemtime("lib/js/responsive.js");?>"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
 <style>
     @media (max-width: 600px)
     {
