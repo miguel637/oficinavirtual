@@ -17,9 +17,6 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="g-recaptcha" data-sitekey="6LcJJzIdAAAAAFpu38JsCW3Syswuzl8zumc4sT5p"></div>
-            </div>
-            <div class="row mt-3">
                 <div class="col-12">
                     <div class="input-group flex-nowrap">
                         <div class="input-group-prepend">
@@ -28,6 +25,9 @@
                         <input type="password" class="form-control fieldpass kickerror btnActiveButton" placeholder="Contraseña" aria-label="Contraseña">
                     </div>
                 </div>
+            </div>
+            <div class="row mt-3">
+                <div class="g-recaptcha" data-sitekey="6LcJJzIdAAAAAFpu38JsCW3Syswuzl8zumc4sT5p"></div>
             </div>
             <div class="row mt-4 text-center" id='content_sc2'>
                 <div class="col-6">
