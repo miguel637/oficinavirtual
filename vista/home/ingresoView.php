@@ -29,10 +29,10 @@
             <div class="row mt-3">
                 <div class="col-12">
                     <div class="input-group flex-nowrap">
-                    <button class="g-recaptcha" 
-                    data-sitekey="reCAPTCHA_site_key" 
-                    data-callback='onSubmit' 
-                    data-action='submit'>Submit</button>
+                        <button class="g-recaptcha" 
+                        data-sitekey="reCAPTCHA_site_key" 
+                        data-callback='onSubmit' 
+                        data-action='submit'>Enviar con captcha</button>
                     </div>
                 </div>
             </div>
