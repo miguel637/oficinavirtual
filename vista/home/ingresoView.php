@@ -26,6 +26,16 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="input-group flex-nowrap">
+                    <button class="g-recaptcha" 
+                    data-sitekey="reCAPTCHA_site_key" 
+                    data-callback='onSubmit' 
+                    data-action='submit'>Submit</button>
+                    </div>
+                </div>
+            </div>
             <div class="row mt-4 text-center" id='content_sc2'>
                 <div class="col-6">
                     <a class='text-custom-1' href="<?php echo site_url("restablecer");?>">¿Olvidaste la contraseña?</a>

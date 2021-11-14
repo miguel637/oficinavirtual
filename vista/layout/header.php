@@ -20,6 +20,7 @@
 		<script>var global_url = "<?php echo LINK_URL;?>";</script>
 		<script src="<?php echo base_url();?>lib/js/template.js?<?php echo filemtime("lib/js/template.js");?>"></script>
 		<script src="<?php echo base_url();?>lib/js/functions.js?<?php echo filemtime("lib/js/functions.js");?>"></script>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
 	</head>
 	<body>
 <div id='cuerpo' class='d-block'>
