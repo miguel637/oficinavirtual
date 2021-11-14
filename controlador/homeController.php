@@ -52,20 +52,75 @@ class HomeController extends HomeModel
     public function validarLogin()
     {
         header('Content-Type: application/json');
+
+        define("CLAVE_SECRETA", "6LcJJzIdAAAAAO-FXnYIld88-3OBAPftgWAIiVkx");
+
+        if (!isset($_POST["g-recaptcha-response"]) || empty($_POST["g-recaptcha-response"])) {
+            exit("Debes completar el captcha");
+        }
+
+        $token = $_POST["g-recaptcha-response"];
+        $verificado = verificarToken($token, CLAVE_SECRETA);
         
-        $usuario = (isset($_POST["user"])) ? $_POST["user"] : "";
-        $password = (isset($_POST["pass"])) ? $_POST["pass"] : "";
+        if ($verificado) {
+            $usuario = (isset($_POST["user"])) ? $_POST["user"] : "";
+            $password = (isset($_POST["pass"])) ? $_POST["pass"] : "";
 
-        $result = $this->ingresarUsuario(strtolower($usuario),$password);
-        if($result == 200) $print = array("result" => "successAccess");
-	    if($result == 4) $print = array("result" => "errorDuringAccess");
-	    if($result == 3) $print = array("result" => "noFoundUser");
-	    if($result == 2) $print = array("result" => "offUserAccess");
-        if($result == 1)  $print = array("result" => "errorAccess");
-	    if(!isset($print)) $print = array("result" => "empty");
+            $result = $this->ingresarUsuario(strtolower($usuario),$password);
+            if($result == 200) $print = array("result" => "successAccess");
+            if($result == 4) $print = array("result" => "errorDuringAccess");
+            if($result == 3) $print = array("result" => "noFoundUser");
+            if($result == 2) $print = array("result" => "offUserAccess");
+            if($result == 1)  $print = array("result" => "errorAccess");
+            if(!isset($print)) $print = array("result" => "empty");
 
-        echo json_encode($print);
+            echo json_encode($print);
+        }
+        else 
+        {
+            exit("Lo siento, parece que eres un robot");
+        }
 
+    }
+
+    public function verificarToken($token, $claveSecreta)
+    {
+        # La API en donde verificamos el token
+        $url = "https://www.google.com/recaptcha/api/siteverify";
+        # Los datos que enviamos a Google
+        $datos = [
+            "secret" => $claveSecreta,
+            "response" => $token,
+        ];
+        // Crear opciones de la petición HTTP
+        $opciones = array(
+            "http" => array(
+                "header" => "Content-type: application/x-www-form-urlencoded\r\n",
+                "method" => "POST",
+                "content" => http_build_query($datos), # Agregar el contenido definido antes
+            ),
+        );
+        # Preparar petición
+        $contexto = stream_context_create($opciones);
+        # Hacerla
+        $resultado = file_get_contents($url, false, $contexto);
+        # Si hay problemas con la petición (por ejemplo, que no hay internet o algo así)
+        # entonces se regresa false. Este NO es un problema con el captcha, sino con la conexión
+        # al servidor de Google
+        if ($resultado === false) {
+            # Error haciendo petición
+            return false;
+        }
+    
+        # En caso de que no haya regresado false, decodificamos con JSON
+        # https://parzibyte.me/blog/2018/12/26/codificar-decodificar-json-php/
+    
+        $resultado = json_decode($resultado);
+        # La variable que nos interesa para saber si el usuario pasó o no la prueba
+        # está en success
+        $pruebaPasada = $resultado->success;
+        # Regresamos ese valor, y listo (sí, ya sé que se podría regresar $resultado->success)
+        return $pruebaPasada;
     }
     
     public function cerrarSesion()
