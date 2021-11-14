@@ -27,7 +27,9 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="g-recaptcha" data-sitekey="6LcJJzIdAAAAAFpu38JsCW3Syswuzl8zumc4sT5p"></div>
+                <div class="col-12">
+                    <div class="g-recaptcha" data-sitekey="6LcJJzIdAAAAAFpu38JsCW3Syswuzl8zumc4sT5p"></div>
+                </div>
             </div>
             <div class="row mt-4 text-center" id='content_sc2'>
                 <div class="col-6">
