@@ -60,7 +60,7 @@ class HomeController extends HomeModel
         }
 
         $token = $_POST["g-recaptcha-response"];
-        $verificado = verificarToken($token, CLAVE_SECRETA);
+        $verificado = $this->verificarToken($token, CLAVE_SECRETA);
         
         if ($verificado) {
             $usuario = (isset($_POST["user"])) ? $_POST["user"] : "";
