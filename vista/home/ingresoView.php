@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                <div class="g-recaptcha" data-sitekey="6LcJJzIdAAAAAFpu38JsCW3Syswuzl8zumc4sT5p"></div>
             </div>
             <div class="row mt-3">
                 <div class="col-12">
