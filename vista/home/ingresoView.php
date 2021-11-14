@@ -17,6 +17,9 @@
                 </div>
             </div>
             <div class="row mt-3">
+                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+            </div>
+            <div class="row mt-3">
                 <div class="col-12">
                     <div class="input-group flex-nowrap">
                         <div class="input-group-prepend">
@@ -34,7 +37,6 @@
                     <button class="btn btn-custom-1 text-white pressActive" id='btnLogValidate'>Ingresar</button>
                 </div>
             </div>
-            
         </div>
     </div>
 </div>
