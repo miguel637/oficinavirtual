@@ -22,7 +22,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-dark text-white" id="addon-wrapping"><i class="fas fa-lock"></i></span>
                         </div>
-                        <input type="password" class="form-control fieldpass kickerror btnActiveButton" placeholder="ContraseÃ±a" aria-label="ContraseÃ±a">
+                        <input type="password" class="form-control fieldpass kickerror btnActiveButton" placeholder="Contraseña" aria-label="Contraseña">
                     </div>
                 </div>
             </div>
