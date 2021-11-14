@@ -45,8 +45,7 @@
 </script>
 
 <script src="<?php echo base_url();?>lib/js/responsive.js?<?php echo filemtime("lib/js/responsive.js");?>"></script>
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-        async defer>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"  async defer>
 <style>
     @media (max-width: 600px)
     {
