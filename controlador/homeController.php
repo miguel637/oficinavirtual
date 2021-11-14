@@ -54,7 +54,7 @@ class HomeController extends HomeModel
         header('Content-Type: application/json');
         
         $usuario = (isset($_POST["user"])) ? $_POST["user"] : "";
-        $password = (isset($_POST["pass"])) ? $_POST["pass"] : "";
+        //$password = (isset($_POST["pass"])) ? $_POST["pass"] : "";
 
         $result = $this->ingresarUsuario(strtolower($usuario),$password);
         if($result == 200) $print = array("result" => "successAccess");

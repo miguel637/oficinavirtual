@@ -21,13 +21,6 @@
 		<script src="<?php echo base_url();?>lib/js/template.js?<?php echo filemtime("lib/js/template.js");?>"></script>
 		<script src="<?php echo base_url();?>lib/js/functions.js?<?php echo filemtime("lib/js/functions.js");?>"></script>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-		<script type="text/javascript">
-			var onloadCallback = function() {
-				grecaptcha.render('ingresoView.php', {
-				'sitekey' : '6LcJJzIdAAAAAFpu38JsCW3Syswuzl8zumc4sT5p'
-				});
-			};
-		</script>
 	</head>
 	<body>
 <div id='cuerpo' class='d-block'>
