@@ -38,7 +38,7 @@
             </div>
             <div class="row mt-4 text-center" id='content_sc2'>
                 <div class="col-6">
-                    <a class='text-custom-1' href="<?php echo site_url("restablecer");?>">¿Olvidaste la contraseña?</a>
+                    <a class='text-custom-1' href="<?php echo site_url("restablecer");?>">¿Olvidasta la contraseña?</a>
                 </div>
                 <div class="col-6">
                     <button class="btn btn-custom-1 text-white pressActive" id='btnLogValidate'>Ingresar</button>
