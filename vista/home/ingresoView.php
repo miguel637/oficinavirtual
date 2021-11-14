@@ -22,23 +22,13 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-dark text-white" id="addon-wrapping"><i class="fas fa-lock"></i></span>
                         </div>
-                        <input type="password" class="form-control fieldpass kickerror btnActiveButton" placeholder="Contraseña" aria-label="Contraseña">
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-12">
-                    <div class="input-group flex-nowrap">
-                        <button class="g-recaptcha" 
-                        data-sitekey="reCAPTCHA_site_key" 
-                        data-callback='onSubmit' 
-                        data-action='submit'>Enviar con captcha</button>
+                        <input type="password" class="form-control fieldpass kickerror btnActiveButton" placeholder="ContraseÃ±a" aria-label="ContraseÃ±a">
                     </div>
                 </div>
             </div>
             <div class="row mt-4 text-center" id='content_sc2'>
                 <div class="col-6">
-                    <a class='text-custom-1' href="<?php echo site_url("restablecer");?>">¿Olvidaste la contraseña?</a>
+                    <a class='text-custom-1' href="<?php echo site_url("restablecer");?>">Â¿Olvidaste la contraseÃ±a?</a>
                 </div>
                 <div class="col-6">
                     <button class="btn btn-custom-1 text-white pressActive" id='btnLogValidate'>Ingresar</button>
