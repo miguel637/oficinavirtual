@@ -6,7 +6,6 @@
 <script type="text/javascript" src="https://oss.sheetjs.com/sheetjs/xlsx.full.min.js"></script>
 
 <div class="row">
-
       <div class="col-4">
         <label for="">Concovatoria</label>
         <input aria-controls="convocatoria" type="number" placeholder="Buscar por convocatoria" class="form-control buscarData">

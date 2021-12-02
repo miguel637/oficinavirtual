@@ -30,6 +30,7 @@ $routes = [
     "emp/reportarIncapacidad" => "empresa/reportarIncapacidad",
     "emp/verIncapacidades" => "empresa/verIncapacidades",
     "emp/expedientesDigital" => "empresa/verExpedientesDigitales",
+    "emp/expedientesMisionales" => "empresa/verExpedientesMisionales",
     "sst/reportCovid" => "empresa/reportarCovid",
     "sst/reportesCovid" => "empresa/verReporteCovid",
     "emp/gestionriesgo/nuevoDescargo" => "empresa/nuevoDescargo",
