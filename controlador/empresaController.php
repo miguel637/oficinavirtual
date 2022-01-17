@@ -652,6 +652,24 @@ class EmpresaController extends EmpresaModel
         $this->getView('layout/footer.php', $data);
     }
 
+    public function verExpedientesDigitales()
+    {
+        $online = $this->checkstatus(true);
+        if (!$online) $this->redirect("");
+
+        if ($_SESSION["type_user"] != 2) die("No tienes permisos de acceso");
+
+        $data["title_app"] = "Expedientes Misionales - Oficina Virtual";
+        $data["script"] = "$('#menu-contratacion').click();$('#menu-contratacion-expedientes-misionales').addClass('active');";
+        $data["modulos"] = $this->getModulosHabilitados();
+
+        $this->getView('layout/header.php', $data);
+        $this->getView('layout/topmenu.php', $data);
+        $this->getView('empresa/contratacion/verExpedientesMisionales.php');
+        $this->getView('layout/bottommenu.php');
+        $this->getView('layout/footer.php', $data);
+    }
+
     public function programarExamenesMasivoFidu()
     {
         $online = $this->checkstatus(true);

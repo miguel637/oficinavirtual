@@ -68,7 +68,7 @@ while($start < 1001)
     {
 
           $cargo = $fila->CARGO->display_value;
-          $temporal = $fila->TEMPORAL1[0];
+          $temporal = $fila->Temporal->display_value;
           $sede = $fila->SEDES->display_value;
           $psicologo = $fila->PSICOLOGO_ENCARGADO[0]->display_value;
           $id = $fila->ID;
