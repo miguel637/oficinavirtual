@@ -1,0 +1,1 @@
+<iframe height='500px' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creatorapp.zohopublic.com/hq5colombia/sst/report-embed/Proceso_Casos_Especiales_Report/XH3zWR7nTFUJ42TPsOEHJ61Uyav5xXOEP2DTtKqdVsZX7d6SVsFTXKCFhGKRDkn66BXrTb8mu1VE9ypxYwmtqPXJuzEPVswsStjz?C_digo_Empresa==<?php echo $_SESSION["idEmpresa_user"];?>'></iframe>
